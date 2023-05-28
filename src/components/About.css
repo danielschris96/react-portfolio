@@ -12,13 +12,14 @@ h2 {
   font-size: 1.5em;
   margin-bottom: 20px;
   color: #495057;
+  font-weight: 350;
 }
 
 img {
   border-radius: 50%;
-  width: 200px;
+  /* width: 200px;
   height: 200px;
-  object-fit: cover;
+  object-fit: cover; */
   margin-bottom: 20px;
 }
 
