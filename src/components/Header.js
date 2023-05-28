@@ -1,8 +1,11 @@
+import React from 'react';
+import './Header.css';
+
 function Header(props) {
   return (
       <header>
-          <h1>Chris Daniels</h1>
           <nav>
+              <h1>Chris Daniels</h1>
               <ul>
                   <li onClick={() => props.setCurrentSection("About Me")}>About Me</li>
                   <li onClick={() => props.setCurrentSection("Portfolio")}>Portfolio</li>

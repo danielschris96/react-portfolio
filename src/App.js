@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
-// import Navigation from './components/Navigation';
-// import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   const [currentSection, setCurrentSection] = useState('AboutMe');
@@ -27,13 +27,9 @@ function App() {
 
   return (
     <div>
-      <nav>
-        <button onClick={() => setCurrentSection('AboutMe')}>About Me</button>
-        <button onClick={() => setCurrentSection('Portfolio')}>Portfolio</button>
-        <button onClick={() => setCurrentSection('Contact')}>Contact</button>
-        <button onClick={() => setCurrentSection('Resume')}>Resume</button>
-      </nav>
+      <Header setCurrentSection={setCurrentSection} />
       {renderSection()}
+      <Footer />
     </div>
   );
 }

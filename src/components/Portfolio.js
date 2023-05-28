@@ -1,4 +1,6 @@
 import Project from './Project';
+import React from 'react';
+import './Portfolio.css';
 
 function Portfolio() {
   const projects = [
@@ -6,25 +8,25 @@ function Portfolio() {
           name: "Project 1",
           link: "",
           repo: "",
-          image: ""
+          image: "https://via.placeholder.com/150"
       },
       {
           name: "Project 2",
           link: "",
           repo: "",
-          image: ""
+          image: "https://via.placeholder.com/150"
       },
       { 
           name: "Project 3",
           link: "",
           repo: "",
-          image: ""
+          image: "https://via.placeholder.com/150"
       },
       {
           name: "Project 4",
           link: "",
           repo: "",
-          image: ""
+          image: "https://via.placeholder.com/150"
       },
       
   ];

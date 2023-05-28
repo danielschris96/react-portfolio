@@ -1,3 +1,6 @@
+import React from 'react';
+import './Resume.css';
+
 function Resume(props) {
   return (
       <section>
