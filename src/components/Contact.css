@@ -8,7 +8,7 @@
   background: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.1);
-  align-items: flex-start;  
+  align-items: flex-start;
 }
 
 .form-wrapper,
@@ -30,8 +30,9 @@
 .contact-form label {
   display: block;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 10px;
+  color: #495057;
 }
 
 .contact-form input[type="text"],
@@ -80,11 +81,11 @@
 @media screen and (max-width: 600px) {
   .contact-form-container,
   .contact-info {
-    width: 100%; /* Take up full width on small screens */
+    width: 100%;
   }
   
   .contact-section {
-    flex-direction: column-reverse; /* Stack children vertically */
+    flex-direction: column-reverse;
   }
 }
 
@@ -98,10 +99,10 @@
 
 .contact-info li {
   margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 .contact-info li:hover {
   transform: scale(1.05);
   transform-origin: left center;
-  transition: transform 0.1s ease;
 }
