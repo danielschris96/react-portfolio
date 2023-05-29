@@ -3,8 +3,8 @@ import './Footer.css';
 
 function Footer(props) {
   return (
-      <footer>
-          <p>Footer</p>
+      <footer className='footer-container'>
+          <p className='footer-text'>This page was made with so much love</p>
       </footer>
   );
 }

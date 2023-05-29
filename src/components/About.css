@@ -17,13 +17,10 @@ h2 {
 
 img {
   border-radius: 50%;
-  /* width: 200px;
-  height: 200px;
-  object-fit: cover; */
   margin-bottom: 20px;
 }
 
-p {
+.about-text {
   text-align: justify;
   line-height: 1.6;
   font-size: 1.1em;
