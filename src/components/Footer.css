@@ -1,13 +1,24 @@
-footer {
-    background-color: #222;
-    color: #fff;
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    text-align: center;
-    margin: 0;
-}
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #212529;
+  }
+  
+  .icon:hover {
+    color: #495057;
+  }
