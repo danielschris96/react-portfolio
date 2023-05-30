@@ -17,11 +17,34 @@ h2 {
 
 .resume-link {
   text-decoration: none;
+  border: 1px solid #b3b3b3;
+  padding: 100px;
+  border-radius: 4px;
 }
+
+.resume-link:hover {
+  color: white;
+  background-color: #35323288;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+.download {
+  color: white;
+}
+}
+
+
 
 .resume-content {
   text-align: justify;
   line-height: 1.6;
   font-size: 1.1em;
   max-width: 800px;
+  
+}
+
+.resume-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
 }

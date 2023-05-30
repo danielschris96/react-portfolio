@@ -15,9 +15,10 @@ h2 {
   font-weight: 350;
 }
 
-img {
+.headshot {
   border-radius: 50%;
   margin-bottom: 20px;
+  max-width: 250px;
 }
 
 .about-text {

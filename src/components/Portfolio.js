@@ -9,14 +9,14 @@ function Portfolio() {
           description: "This is a short project description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
           link: "",
           repo: "",
-          image: "https://via.placeholder.com/400"
+          image: "/savvychef.JPG"
       },
       {
           name: "Project 2",
           description: "This is a short project description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
           link: "",
           repo: "",
-          image: "https://via.placeholder.com/400"
+          image: "/streemy.JPG"
       },
       { 
           name: "Project 3",

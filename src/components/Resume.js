@@ -2,9 +2,9 @@ import React from 'react';
 import './Resume.css';
 
 const Resume = () => (
-  <section>
-    <a href="https://drive.google.com/file/d/160Lt6O01SKXPGLoqrF6XGx8dohN8rZ4R/view" className="resume-link">
-      <h2>View My Resume</h2>
+  <section className='resume-wrapper'>
+    <a href="/resume.pdf" className="resume-link" download >
+      <h2 className='download'>Download My Resume</h2>
     </a>
     <div className="resume-content">
       <h3>Front-end Proficiencies</h3>

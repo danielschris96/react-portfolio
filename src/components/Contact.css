@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 20px;
-  width: 80%;
+  padding: 70px;
+  width: 100%;
   margin: 0 auto;
   background: #f9f9f9;
   border-radius: 8px;
@@ -106,3 +106,4 @@
   transform: scale(1.05);
   transform-origin: left center;
 }
+
