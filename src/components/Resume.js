@@ -3,7 +3,7 @@ import './Resume.css';
 
 const Resume = () => (
   <section className='resume-wrapper'>
-    <a href="/resume.pdf" className="resume-link" download >
+    <a href="/react-portfolio/resume.pdf" className="resume-link" download >
       <h2 className='download'>Download My Resume</h2>
     </a>
     <div className="resume-content">
