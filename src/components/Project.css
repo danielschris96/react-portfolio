@@ -24,3 +24,9 @@ max-width: 400px;
   border-radius: 8px;
   margin: 10px;
 }
+
+@media (max-width: 720px) {
+.project-container {
+  flex-direction: column;
+}
+}

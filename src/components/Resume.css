@@ -5,14 +5,7 @@ section {
   justify-content: center;
   padding: 20px;
   background-color: #f8f9fa;
-  color: #212529;
-}
-
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 20px;
   color: #495057;
-  font-weight: 350;
 }
 
 .resume-link {
@@ -38,7 +31,7 @@ h2 {
   line-height: 1.6;
   font-size: 1.1em;
   max-width: 800px;
-  
+  color: #495057;
 }
 
 .resume-wrapper {
@@ -47,4 +40,5 @@ h2 {
   align-items: center;
   justify-content: space-around;
   padding: 20px;
+    color: #495057;
 }

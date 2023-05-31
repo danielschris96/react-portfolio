@@ -5,17 +5,17 @@ import './Portfolio.css';
 function Portfolio() {
   const projects = [
       {
-          name: "Project 1",
-          description: "This is a short project description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-          link: "",
-          repo: "",
+          name: "savvy chef",
+          description: "Savvy Chef is a user-friendly web application that solves the problem of meal planning by suggesting recipes based on the ingredients available in your kitchen. With its intuitive interface and extensive filtering options, it provides tailored recipes that accommodate dietary restrictions and preferences. Additionally, the app offers cocktail pairing suggestions to complement your meal.",
+          link: "https://didriklindberg.github.io/savvy-chef/",
+          repo: "https://github.com/DidrikLindberg/savvy-chef",
           image: "/savvychef.JPG"
       },
       {
-          name: "Project 2",
-          description: "This is a short project description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-          link: "",
-          repo: "",
+          name: "Streemy",
+          description: "Streemy is an application that aggregates streams from different platforms, allowing users to track their favorite streamers easily. It provides features such as displaying online and offline streamers and the ability to favorite streamers.",
+          link: "https://young-tor-26363.herokuapp.com/",
+          repo: "https://github.com/kylecoding1/Project2",
           image: "/streemy.JPG"
       },
       { 

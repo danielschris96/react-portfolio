@@ -1,9 +1,9 @@
 .contact-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   padding: 70px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   background: #f9f9f9;
   border-radius: 8px;
@@ -78,10 +78,10 @@
   color: #495057
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .contact-form-container,
   .contact-info {
-    width: 100%;
+    width: 80%;
   }
   
   .contact-section {
@@ -94,7 +94,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-left: 1px;
 }
 
 .contact-info li {

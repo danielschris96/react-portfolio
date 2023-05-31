@@ -34,3 +34,24 @@ nav ul li {
 nav ul li:hover {
   transform: scale(1.05); 
 }
+
+/* Responsive Styles */
+@media (max-width: 720px) {
+  header {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  nav ul li {
+    font-size: 1.2em;
+  }
+}
