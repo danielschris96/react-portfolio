@@ -23,7 +23,7 @@ function Portfolio() {
           description: "Budget Better is a web application that helps users manage their personal finances effectively. With Budget Better, you can track your income and expenses, set budget goals, and gain insights into your spending habits.",
           link: "https://budgetbetter.herokuapp.com/",
           repo: "https://github.com/sheaschwenn/budget-better",
-          image: "/react-portfolio/BudgetBetterLogo.PNG"
+          image: "/react-portfolio/budgetbetter.JPG"
       },
       {
           name: "Project 4",
