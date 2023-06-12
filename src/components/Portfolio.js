@@ -19,11 +19,11 @@ function Portfolio() {
           image: "/react-portfolio/streemy.JPG"
       },
       { 
-          name: "Project 3",
-          description: "This is a short project description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-          link: "",
-          repo: "",
-          image: "https://via.placeholder.com/400"
+          name: "Budget Better",
+          description: "Budget Better is a web application that helps users manage their personal finances effectively. With Budget Better, you can track your income and expenses, set budget goals, and gain insights into your spending habits.",
+          link: "https://budgetbetter.herokuapp.com/",
+          repo: "https://github.com/sheaschwenn/budget-better",
+          image: "/react-portfolio/BudgetBetterLogo.PNG"
       },
       {
           name: "Project 4",
