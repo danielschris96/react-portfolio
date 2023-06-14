@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.css';
 import emailjs from 'emailjs-com';
 
 function Contact() {
+  const [message, setMessage] = useState(null);
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
     // Send email using EmailJS
-    emailjs.sendForm('service_wo9xybh', 'template_3sxj8aa', e.target, 'K3qDQ7DTy5joUlJk9')
+    emailjs
+      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
       .then((result) => {
         console.log(result.text);
-        // Optional: Show a success message or perform any other actions after successful submission
+        setMessage('Email sent successfully!');
       })
       .catch((error) => {
         console.error(error.text);
-        // Optional: Show an error message or perform any other actions on error
+        setMessage('Failed to send email. Please try again later.');
       });
 
     // Reset the form after submission
@@ -33,6 +36,7 @@ function Contact() {
           <label htmlFor='message'>Message</label>
           <textarea id='message' name='message' required></textarea>
           <input type='submit' value='Submit' />
+          {message && <p className='message'>{message}</p>}
         </form>
       </div>
       <div className='contact-info'>
@@ -57,4 +61,3 @@ function Contact() {
 }
 
 export default Contact;
-
