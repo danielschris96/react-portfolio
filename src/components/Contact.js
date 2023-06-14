@@ -7,7 +7,7 @@ function Contact() {
     e.preventDefault();
 
     // Send email using EmailJS
-    emailjs.sendForm('service_wo9xybh', 'template_3sxj8aa', e.target, 'YK3qDQ7DTy5joUlJk9')
+    emailjs.sendForm('service_wo9xybh', 'template_3sxj8aa', e.target, 'K3qDQ7DTy5joUlJk9')
       .then((result) => {
         console.log(result.text);
         // Optional: Show a success message or perform any other actions after successful submission
