@@ -25,13 +25,13 @@ function Portfolio() {
           repo: "https://github.com/sheaschwenn/budget-better",
           image: "/react-portfolio/budgetbetter.JPG"
       },
-      {
-          name: "Project 4",
-          description: "This is a short project description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-          link: "",
-          repo: "",
-          image: "https://via.placeholder.com/400"
-      },
+    //   {
+    //       name: "Project 4",
+    //       description: "This is a short project description lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    //       link: "",
+    //       repo: "",
+    //       image: "https://via.placeholder.com/400"
+    //   },
       
   ];
 
