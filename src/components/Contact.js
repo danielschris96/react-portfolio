@@ -61,7 +61,7 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 
-export const ContactUs = () => {
+export const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
