@@ -10,14 +10,14 @@ function Contact() {
 
     // Send email using EmailJS
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .sendForm('service_wo9xybh', 'template_3sxj8aa', e.target, 'K3qDQ7DTy5joUlJk9')
       .then((result) => {
         console.log(result.text);
-        setMessage('Email sent successfully!');
+        setMessage('Message sent successfully!');
       })
       .catch((error) => {
         console.error(error.text);
-        setMessage('Failed to send email. Please try again later.');
+        setMessage('Failed to send message. Please try again later.');
       });
 
     // Reset the form after submission

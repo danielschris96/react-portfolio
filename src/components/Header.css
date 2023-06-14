@@ -55,3 +55,7 @@ nav ul li:hover {
     font-size: 1.2em;
   }
 }
+
+.logo:hover {
+  cursor: pointer;
+}
