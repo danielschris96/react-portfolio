@@ -4,23 +4,16 @@ section {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #f8f9fa;
-  color: #495057;
+  background-color: #2e2e2eed;
+  color: #ffffff;
 }
 
 .resume-link {
   text-decoration: none;
-  border: 1px solid #b3b3b3;
-  border-radius: 4px;
 }
 
 .resume-link:hover {
-  color: white;
-  background-color: #35323288;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
-.download {
-  color: white;
-}
+transform: scale(1.05);
 }
 
 
@@ -30,7 +23,7 @@ section {
   line-height: 1.6;
   font-size: 1.1em;
   max-width: 800px;
-  color: #495057;
+  color: #ffffff;
 }
 
 .resume-wrapper {
@@ -39,5 +32,5 @@ section {
   align-items: center;
   justify-content: space-around;
   padding: 20px;
-  color: #495057;
+  color: #ffffff;
 }
