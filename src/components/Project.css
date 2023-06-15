@@ -16,6 +16,7 @@
 
 .project-info {
   max-width: 400px;
+  margin: 10px;
 }
 
 .project-img {
@@ -28,6 +29,7 @@
 @media (max-width: 720px) {
 .project-container {
   flex-direction: column;
+  align-items: center;
 }
 }
 
