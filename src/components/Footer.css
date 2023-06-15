@@ -1,24 +1,35 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: #f8f9fa;
-    color: #212529;
-  }
-  
-  
-  .social-icons {
-    display: flex;
-  }
-  
-  .icon {
-    font-size: 24px;
-    margin-right: 10px;
-    color: #212529;
-  }
-  
-  .icon:hover {
-    color: #495057;
-  }
+  padding: 20px;
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+}
+
+.icon {
+  font-size: 24px;
+  margin: 0 10px; /* Add some margin between the icons */
+  color: #212529;
+}
+
+.icon:hover {
+  transform: scale(1.05);
+}

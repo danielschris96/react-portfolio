@@ -26,9 +26,11 @@ function App() {
   }
 
   return (
-    <div>
-      <Header setCurrentSection={setCurrentSection} />
-      {renderSection()}
+    <div className="app-wrapper">
+      <div className="content">
+        <Header setCurrentSection={setCurrentSection} />
+        {renderSection()}
+      </div>
       <Footer />
     </div>
   );

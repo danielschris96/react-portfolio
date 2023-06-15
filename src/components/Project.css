@@ -15,7 +15,7 @@
 }
 
 .project-info {
-max-width: 400px;
+  max-width: 400px;
 }
 
 .project-img {
@@ -29,4 +29,33 @@ max-width: 400px;
 .project-container {
   flex-direction: column;
 }
+}
+
+a {
+  text-decoration: none;
+  color: #000;;
+}
+
+.repo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px;
+  font-size: smaller;
+  border: 1px solid #0000008c;
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(100, 100, 184, 0.167);
+}
+
+.repo:hover {
+  transform: scale(1.05);
+}
+
+.name-repo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

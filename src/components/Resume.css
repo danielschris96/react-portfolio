@@ -11,7 +11,6 @@ section {
 .resume-link {
   text-decoration: none;
   border: 1px solid #b3b3b3;
-  padding: 100px;
   border-radius: 4px;
 }
 
@@ -40,5 +39,5 @@ section {
   align-items: center;
   justify-content: space-around;
   padding: 20px;
-    color: #495057;
+  color: #495057;
 }
