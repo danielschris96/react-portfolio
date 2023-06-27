@@ -21,7 +21,6 @@
 }
 
 .about-text {
-  text-align: justify;
   line-height: 1.5;
   font-size: 1rem; /* Base size for small screens */
   margin: 15px; /* Base margin for small screens */
@@ -31,6 +30,7 @@
   display: flex;
   align-items: center; /* Vertically align the image and text */
   justify-content: center; /* Add horizontal alignment */
+  flex-direction: column;
 }
 
 /* Media query for screens larger than 768px (tablets, laptops, etc.) */
@@ -42,13 +42,14 @@
 
   .headshot {
     max-width: 300px; /* Increased size for larger screens */
-    margin: 20px; /* Increased margin for larger screens */
+    margin-left: 20px; /* Increased margin for larger screens */
   }
 
   .about-text {
     font-size: 1.5rem; /* Increased size for larger screens */
     margin: 30px; /* Increased margin for larger screens */
   }
+
 }
 
 /* Media query for screens larger than 1200px (large desktops, etc.) */
@@ -63,6 +64,10 @@
 
   .about-text {
     font-size: 1.5rem; /* Even larger size for extra large screens */
+  }
+
+  .text-wrapper {
+    flex-direction: row; /* Change the direction of the flex items */
   }
 }
 
