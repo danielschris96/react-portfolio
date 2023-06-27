@@ -1,36 +1,78 @@
-section {
+.resume-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 50px;
   background-color: #2e2e2eed;
   color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.resume-link-wrapper {
+  margin-bottom: 30px;
 }
 
 .resume-link {
   text-decoration: none;
+  color: #ffffff;
+  background-color: #007BFF; /* Change this to any color you prefer */
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  display: inline-block; /* To treat it like a block element while keeping it inline */
 }
 
 .resume-link:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
+  background-color: #0056b3; /* Darker shade on hover */
+  color: #ffffff;
 }
 
-
+.download {
+  margin: 0; /* Remove the default margin */
+  font-size: 1.2em;
+}
 
 .resume-content {
-  text-align: justify;
-  line-height: 1.6;
-  font-size: 1.1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
   max-width: 800px;
-  color: #ffffff;
 }
 
-.resume-wrapper {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-around;
-  padding: 20px;
-  color: #ffffff;
+.proficiencies {
+  width: 45%;
+}
+
+.proficiencies ul {
+  list-style: none;
+  padding: 0;
+}
+
+.proficiencies li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .resume-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proficiencies {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .resume-link {
+    font-size: 1em;
+  }
+
+  .resume-wrapper {
+    padding: 20px;
+  }
 }

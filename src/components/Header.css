@@ -36,7 +36,7 @@ nav ul li:hover {
 }
 
 /* Responsive Styles */
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   header {
     padding: 10px;
   }
@@ -58,4 +58,55 @@ nav ul li:hover {
 
 .logo:hover {
   cursor: pointer;
+}
+
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.mobile-nav-list {
+  display: none; /* Hide by default */
+  list-style: none;
+  position: absolute;
+  background-color: #2e2e2eed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.mobile-nav-list.open { /* Only show when .open class is added */
+  display: block;
+}
+
+.mobile-nav-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav ul {
+    display: none; /* Hide the regular menu on small screens */
+  }
+
+  .menu-icon {
+    display: block; /* Show the hamburger icon on small screens */
+  }
+}
+
+@media (min-width: 769px) {
+  nav ul {
+    display: flex; /* Show the regular menu on large screens */
+  }
+
+  .menu-icon {
+    display: none; /* Hide the hamburger icon on large screens */
+  }
 }

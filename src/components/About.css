@@ -5,27 +5,68 @@
   padding: 20px;
   background-color: #2e2e2eed;
   color: #ffffff;
+  width: auto;
 }
 
 .about-title {
-  font-size: 12rem;
+  font-size: 2rem; /* Base size for small screens */
   margin-bottom: 20px;
   font-weight: 600;
 }
 
 .headshot {
   border-radius: 10%;
-  max-width: 400px;
-  margin: 20px; /* Add margin-right to create spacing between the image and text */
+  max-width: 200px; /* Base size for small screens */
+  margin: 10px; /* Base margin for small screens */
 }
 
 .about-text {
   text-align: justify;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1rem; /* Base size for small screens */
+  margin: 15px; /* Base margin for small screens */
 }
 
 .text-wrapper {
   display: flex;
   align-items: center; /* Vertically align the image and text */
+  justify-content: center; /* Add horizontal alignment */
 }
+
+/* Media query for screens larger than 768px (tablets, laptops, etc.) */
+@media (min-width: 769px) {
+  .about-title {
+    font-size: 4rem; /* Increased size for larger screens */
+    margin-left: 40px; /* Increased margin for larger screens */
+  }
+
+  .headshot {
+    max-width: 300px; /* Increased size for larger screens */
+    margin: 20px; /* Increased margin for larger screens */
+  }
+
+  .about-text {
+    font-size: 1.5rem; /* Increased size for larger screens */
+    margin: 30px; /* Increased margin for larger screens */
+  }
+}
+
+/* Media query for screens larger than 1200px (large desktops, etc.) */
+@media (min-width: 1201px) {
+  .about-title {
+    font-size: 8rem; /* Even larger size for extra large screens */
+  }
+
+  .headshot {
+    max-width: 400px; /* Even larger size for extra large screens */
+  }
+
+  .about-text {
+    font-size: 1.5rem; /* Even larger size for extra large screens */
+  }
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
