@@ -10,8 +10,8 @@
   margin: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  border-bottom: 1px solid #ddd;
+  justify-content: center;
+  /* border-bottom: 1px solid #ddd; */
 }
 
 .project-info {
@@ -60,4 +60,9 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.name {
+  font-weight: normal;
+  font-size: larger;
 }

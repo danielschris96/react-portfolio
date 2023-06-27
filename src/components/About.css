@@ -1,29 +1,31 @@
-section {
+.about-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start; /* Align content to the left side */
   padding: 20px;
   background-color: #2e2e2eed;
   color: #ffffff;
 }
 
-h2 {
-  font-size: 1.5em;
+.about-title {
+  font-size: 12rem;
   margin-bottom: 20px;
-  color: #ffffff;
-  font-weight: 350;
+  font-weight: 600;
 }
 
 .headshot {
-  border-radius: 50%;
-  margin-bottom: 20px;
-  max-width: 250px;
+  border-radius: 10%;
+  max-width: 400px;
+  margin: 20px; /* Add margin-right to create spacing between the image and text */
 }
 
 .about-text {
   text-align: justify;
-  line-height: 1.6;
-  font-size: 1.1em;
-  max-width: 800px;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.text-wrapper {
+  display: flex;
+  align-items: center; /* Vertically align the image and text */
 }
