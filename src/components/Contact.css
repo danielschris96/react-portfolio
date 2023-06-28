@@ -81,7 +81,7 @@
   color: #ffffff
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .contact-form-container,
   .contact-info {
     width: 80%;
@@ -89,6 +89,7 @@
   
   .contact-section {
     flex-direction: column-reverse;
+    padding: 10px;
   }
 }
 

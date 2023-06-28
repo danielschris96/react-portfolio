@@ -12,12 +12,14 @@
   font-size: 4rem; /* Base size for small screens */
   margin-bottom: 20px;
   font-weight: 600;
+  margin-top: 10px;
 }
 
 .headshot {
   border-radius: 10%;
   max-width: 200px; /* Base size for small screens */
   margin: 10px; /* Base margin for small screens */
+  margin-bottom: 0px;
 }
 
 .about-text {
@@ -64,6 +66,7 @@
 
   .about-text {
     font-size: 1.5rem; /* Even larger size for extra large screens */
+    max-width: 80%;
   }
 
   .text-wrapper {
@@ -78,3 +81,13 @@ p, h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+.link-button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #ffffff; /* Change color to match text color */
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: inherit; /* Inherit font size from parent */
+  font-family: inherit; /* Inherit font family from parent */
+}

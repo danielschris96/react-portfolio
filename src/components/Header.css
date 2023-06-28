@@ -78,6 +78,7 @@ nav ul li:hover {
   right: 0;
   padding: 20px;
   text-align: center;
+  font-size: 2em;
 }
 
 .mobile-nav-list.open { /* Only show when .open class is added */
