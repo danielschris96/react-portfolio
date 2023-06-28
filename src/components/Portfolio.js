@@ -13,7 +13,8 @@ function Portfolio() {
       },
       {
           name: "savvy chef",
-          description: "Savvy Chef is a user-friendly web application that solves the problem of meal planning by suggesting recipes based on the ingredients available in your kitchen. With its intuitive interface and extensive filtering options, it provides tailored recipes that accommodate dietary restrictions and preferences. Additionally, the app offers cocktail pairing suggestions to complement your meal.",
+          description: 
+          "Savvy Chef is a web app that suggests meals based on your available ingredients. It customizes recipes to dietary needs and even pairs cocktails with meals for a complete dining experience.",
           link: "https://didriklindberg.github.io/savvy-chef/",
           repo: "https://github.com/DidrikLindberg/savvy-chef",
           image: "/react-portfolio/savvychef.JPG"
@@ -38,7 +39,6 @@ function Portfolio() {
 
   return (
       <section>
-        <h2>Portfolio</h2>
         <div className="portfolio-container">
           {projects.map((project, index) => (
             <Project key={index} {...project} />

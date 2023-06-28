@@ -25,6 +25,7 @@
   height: 300px;
   width: 400px;
   object-fit: fill;
+  border-radius: 8px;
 }
 
 a {
@@ -78,11 +79,13 @@ a {
   
   .project-info {
     max-width: 1000px;
+    font-size: 1.5em
   }
 
   .project-img {
     height: 350px;
     width: 500px;
+    margin-left: 20px;
   }
 
   .name {

@@ -27,7 +27,7 @@ function Contact() {
   return (
     <section className='contact-section'>
       <div className='contact-form-container'>
-        <h2>Contact Me</h2>
+        <h2 className='contact-me'>Contact Me</h2>
         <form className='contact-form' onSubmit={handleSubmit}>
           <label htmlFor='name'>Name</label>
           <input type='text' id='name' name='name' required />

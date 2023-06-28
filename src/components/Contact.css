@@ -28,6 +28,10 @@
   width: 45%;
 }
 
+.contact-me {
+  text-align: center;
+}
+
 .contact-form label {
   display: block;
   font-size: 14px;
