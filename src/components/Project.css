@@ -61,6 +61,7 @@ a {
   position: relative;
   left: 10px;
   color: #ffffff;
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
@@ -91,4 +92,19 @@ a {
   .name {
     font-size: 2em;
   }
+  .repo {
+    height: 50px;
+  }
+}
+
+.project-img {
+  transition: transform 0.1s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.01);
+}
+
+.name:hover {
+  transform: scale(1.05);
 }
