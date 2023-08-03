@@ -8,12 +8,12 @@ import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  const [currentSection, setCurrentSection] = useState('AboutMe');
+  const [currentSection, setCurrentSection] = useState('About Me');
 
   const renderSection = () => {
     switch (currentSection) {
-      case 'AboutMe':
-        return <About />;
+      case 'About Me':
+        return <About setCurrentSection={setCurrentSection} />;
       case 'Portfolio':
         return <Portfolio />;
       case 'Contact':
@@ -21,14 +21,14 @@ function App() {
       case 'Resume':
         return <Resume />;
       default:
-        return <About />;
+        return <About setCurrentSection={setCurrentSection} />;
     }
   }
 
   return (
     <div className="app-wrapper">
       <div className="content">
-        <Header setCurrentSection={setCurrentSection} />
+        <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
         {renderSection()}
       </div>
       <Footer />
